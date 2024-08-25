@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cdir Bae Web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="font" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+
+    <div class="wrap">
+        <header>
+            <div class="header-left">
+            <a href="index.html">
+                <img src="logo.svg" alt="Cdir Bae Logo">
+            </a>
+            <div class="divider hide-mobile"></div>
+            <a href="#" class="home hide-mobile">Home</a>        
+            </div>
+            
+            <nav>
+                <a href="#" class="menu-open hide-dekstop">
+                    <img src="menu.svg" alt="Open Menu">
+                </a>
+                <ul >
+                    <li class="hide-dekstop">
+                        <a href="#" class="menu-close hide-dekstop">
+                        <img src="close.svg" alt="Close Menu">
+                        </a>
+                    </li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Nigga Slabs</a></li>
+                    <li><a href="#">Filenkari Slabs</a></li>
+                    <li><a href="#">Matrix Agent</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Best Online Nigga Slabs <div class="cntr">At Best Price</div></h1>
+            <p class="subhead"> Latest online cdir bae high quality personal nigga delivered to your home. We have various
+                kind of slabs and agents such as nigga, filenkar, cp, african and japanese. Order Now for the
+                Best Experience! 
+            </p>
+            <a href="#" class="primary-cta">Get Yours Now!</a>
+
+        </main>
+
+        <div class="cat-container">
+            <div class="cat">
+                <img src="cat.png" alt="Cat">
+                <div class="inner-circle"></div>
+                <div class="outer-circle"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const menu = document.querySelector ('nav ul');
+        const menuBtn = document.querySelector ('.menu-open');
+        const closeBtn = document.querySelector ('.menu-close');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.add('open')});
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('open')});
+    </script>
+
+
+</body>
+</html>
